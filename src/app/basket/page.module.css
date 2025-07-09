@@ -1,0 +1,206 @@
+.title {
+    font-family: Playfair Display;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 55px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: #2C2F24;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.card {
+    width: 100%;
+    margin: 0 auto;
+    padding: 85px 150px;
+
+    & .inner {
+        max-width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 90px;
+        align-items: center;
+
+        & .content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+
+            & h2 {
+                font-family: Playfair Display;
+                font-weight: 600;
+                font-style: SemiBold;
+                font-size: 55px;
+                line-height: 125%;
+                letter-spacing: 0%;
+                color: #2C2F24;
+
+            }
+
+            & p {
+                font-family: DM Sans;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0%;
+                color: #403F3D;
+
+            }
+
+            & .sizeblock {
+                & .sizes {
+                    display: flex;
+                    gap: 10px;
+
+                    & .size {
+                        display: flex;
+                        gap: 10px;
+                        border: 1px solid #403F3D;
+                        border-radius: 100px;
+                        padding-top: 8px;
+                        padding-right: 16px;
+                        padding-bottom: 8px;
+                        padding-left: 8px;
+                        gap: 8px;
+
+                        & p {
+                            font-family: DM Sans;
+                            font-weight: 700;
+                            font-style: Bold;
+                            font-size: 16px;
+                            line-height: 150%;
+                            letter-spacing: 0%;
+
+                        }
+
+                        &:hover {
+                            background: #403F3D;
+                            color: #ffffff;
+
+                            & .size_inner {
+                                background: #ffffff;
+                                color: #403F3D;
+                            }
+
+                            & p {
+                                color: #ffffff;
+                            }
+                        }
+
+                        & .size_inner {
+                            padding: 2px 8px;
+                            opacity: 1;
+                            border-radius: 100px;
+                            background: #403F3D;
+                            text-align: center;
+
+
+
+                            & h6 {
+                                font-family: DM Sans;
+                                font-weight: 500;
+                                font-style: Medium;
+                                font-size: 16px;
+                                line-height: 150%;
+                                letter-spacing: 0%;
+                                text-align: center;
+                                vertical-align: middle;
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            & .priceblock {
+                display: flex;
+                justify-content: space-between;
+
+                & p {
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-style: Bold;
+                    font-size: 24px;
+                    line-height: 125%;
+                    letter-spacing: 0%;
+
+                }
+            }
+
+            & .line {
+                width: 100%;
+                height: 1px;
+                background: #000000;
+            }
+
+            & .info {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                & p {
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-style: Bold;
+                    font-size: 10px;
+                    line-height: 140%;
+                    letter-spacing: 0%;
+                    vertical-align: middle;
+
+                }
+            }
+
+            & .button {
+                & button {
+                    background: #ffffff;
+                    width: 100%;
+                    border-width: 1px;
+                    border-radius: 100px;
+                    padding-top: 10px;
+                    padding-right: 78px;
+                    padding-bottom: 10px;
+                    padding-left: 78px;
+                    gap: 8px;
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-style: Bold;
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    border: 1px solid #403F3D
+                }
+
+
+            }
+        }
+    }
+}
+.button {
+    background: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-right: 78px;
+    padding-bottom: 10px;
+    padding-left: 78px;
+    gap: 8px;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 1px solid #403F3D;
+    margin-bottom: 100px;
+}
